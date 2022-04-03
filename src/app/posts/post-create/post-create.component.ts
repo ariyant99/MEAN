@@ -22,6 +22,7 @@ export class PostCreateComponent {
       return;
     }
     var post : Post = {
+      id : null,
       title: form.value.title,
       content: form.value.content
     };
